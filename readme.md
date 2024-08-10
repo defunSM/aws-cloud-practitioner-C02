@@ -259,8 +259,11 @@ The AWS Certified Cloud Practitioner certification is your official starting poi
 - What are common use cases for Amazon FSx for Windows File Server?
     - The common use cases for amazon FSX is if applications need a native windows file system included.
 - Can Amazon EFS be accessed from on-premises environments?
+    - Yes EFS can be assessed by on-premise environment through AWS Direct Connect and AWS VPN.
 - What is the difference between Amazon EFS and Amazon FSx for Windows File Server?
+    - Amazon EFS is fully managed file system that supports the NFS it is designed for linux based workloads. Where has FSx is for windows file server.
 - What are the performance modes available in Amazon EFS?
+    - There are two difference performance modes: The general performance mode which has low latency and throughput while the max performance mode has higher I/O mode. 
 
 # Databases:
 
