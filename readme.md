@@ -161,6 +161,80 @@ The AWS Certified Cloud Practitioner certification is your official starting poi
     - There are a few security features like ACLs, Security groups and VPCs.
 - What are the benefits of using AMIs?
     - AMIs allow you to restrict what users can deploy or use specific resources rather than just using the root account.
+
+### AWS Certified Cloud Practitioner Exam - Domain 2 Study Guide: **Security and Compliance**
+
+---
+
+### **Overview of Domain 2:**
+
+This domain focuses on understanding the core AWS services, concepts, and tools for security and compliance. It accounts for 25% of the exam and covers the following key areas:
+
+1. **Defining the AWS shared responsibility model**
+2. **Defining AWS Cloud security and compliance concepts**
+3. **Identifying AWS access management capabilities**
+4. **Identifying resources for security support**
+
+---
+
+### **1. AWS Shared Responsibility Model**
+
+The AWS Shared Responsibility Model is a fundamental concept that delineates the security responsibilities between AWS and the customer.
+
+- **AWS Responsibility (Security *of* the Cloud):**
+    - AWS manages the physical infrastructure and hardware, including:
+        - **Physical Security**: AWS data centers, networking, and hardware.
+        - **Software Security**: The AWS Global Infrastructure, managed services, and foundational services (like EC2, S3, etc.).
+- **Customer Responsibility (Security *in* the Cloud):**
+    - Customers manage security **in** the cloud, including:
+        - **Data Protection**: Encrypting data, managing access, and ensuring integrity.
+        - **Identity and Access Management**: Setting up and managing users and permissions.
+        - **Configuration Management**: Securing applications, operating systems, and network configurations.
+
+### **2. AWS Security and Compliance Concepts**
+
+### **Security Concepts:**
+
+- **Identity and Access Management (IAM):**
+    - **Users, Groups, and Roles**: Create and manage AWS users, groups, and roles to define permissions.
+    - **Policies**: Attach policies to IAM entities to grant appropriate permissions.
+    - **Multi-Factor Authentication (MFA)**: Add an extra layer of security.
+- **Encryption:**
+    - **Encryption at Rest**: Encrypt data stored in AWS services (e.g., S3, EBS, RDS) using AWS Key Management Service (KMS).
+    - **Encryption in Transit**: Use TLS/SSL for secure data transmission.
+- **Network Security:**
+    - **Security Groups**: Act as a virtual firewall controlling inbound and outbound traffic for EC2 instances.
+    - **Network Access Control Lists (NACLs)**: Provide an additional layer of security at the subnet level.
+
+### **Compliance Concepts:**
+
+- **AWS Compliance Programs**: AWS adheres to global compliance programs like SOC, ISO, and GDPR. Customers can leverage these compliance frameworks by using AWS services.
+- **AWS Artifact**: A portal that provides on-demand access to AWS’s security and compliance reports.
+
+### **3. AWS Access Management Capabilities**
+
+- **IAM Best Practices:**
+    - **Principle of Least Privilege**: Only grant permissions that are necessary for the task.
+    - **IAM Policies**: Use managed policies to enforce security.
+    - **Root Account**: Secure the root account and avoid using it for everyday tasks.
+- **Federated Access**: Integrate on-premises Active Directory (AD) or other identity providers for federated access using AWS IAM roles.
+- **Access Logs**:
+    - **AWS CloudTrail**: Logs all API calls, including who made the call, which resources were used, and when.
+    - **AWS Config**: Tracks configuration changes in your AWS resources and evaluates these changes against your configurations.
+
+### **4. Resources for Security Support**
+
+- **AWS Security Hub**: Provides a comprehensive view of your security state in AWS and helps you check your environment against security best practices.
+- **AWS Trusted Advisor**: Offers real-time guidance to help you provision your resources following AWS best practices, focusing on cost optimization, performance, security, and fault tolerance.
+- **AWS Inspector**: An automated security assessment service that helps improve the security and compliance of applications deployed on AWS.
+
+### **Study Tips:**
+
+- **Understand IAM deeply**: Know how to create policies, manage user permissions, and enforce security best practices.
+- **Learn the Shared Responsibility Model**: Be clear on what AWS manages and what you are responsible for.
+- **Practice with Security Tools**: Familiarize yourself with AWS security services like CloudTrail, Inspector, and Security Hub.
+- **Review Compliance Services**: Explore AWS Artifact and understand the importance of compliance in cloud services.
+
  
 # **Networking:**
 
